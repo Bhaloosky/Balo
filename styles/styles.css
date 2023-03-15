@@ -1,0 +1,181 @@
+
+
+/****************** page defaults ******************/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.fixed-width {
+    width: 600px;
+    margin: 0 auto; /* centers content on the screen */
+}
+
+.hidden {
+    display: none; /* hides elements that are needed for DOM */
+}
+
+.flex {
+    display: flex; 
+}
+
+/****************** typography ******************/
+
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+header a {
+    font: bold;
+    margin-left: 70px;
+    color: red;
+}
+
+h2, p {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/****************** site-wide styling ******************/
+
+
+header, footer {
+    background-color: lightskyblue;
+
+}
+header {
+    margin-bottom: 30px;
+}
+main{
+    background-color: lightgray;
+}
+
+p {
+    line-height: 25px;
+  }
+  
+
+footer {
+        margin-top: 30px;
+}
+
+header a {
+    font-size: 18px;
+}
+header img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+header h1, header li {
+    line-height: 50px;
+}
+
+nav {
+    flex-grow: 8
+}
+
+nav .flex  {
+    
+    justify-content: end;
+}
+
+nav .flex li {
+    margin: 0 15px;
+}
+
+footer  {
+    text-align: center;
+
+}
+
+footer div {
+    padding: 15px 0px;
+}
+
+
+/*** HOME PAGE STYLING ***/
+
+.italics {
+    font-style: italic;
+}
+
+article {
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+
+
+
+
+/****************** profile page styling ******************/
+
+
+.wide-column {
+    width: 420px;
+}
+
+.narrow-column {
+    width: 180px
+}
+
+.wide-column .flex img {
+    width: 180px;
+    border-radius: 50px;
+}
+
+.Contact {
+    font-weight: bold;
+    width: 70px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.light-background {
+    background-color: lightgray;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.light-background h2 {
+    margin: 10px;
+    padding: 0 0 15px 15px;
+}
+
